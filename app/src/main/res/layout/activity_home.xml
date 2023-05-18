@@ -5,21 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".RegistrasiActivity">
+    tools:context=".RegistrasiActivity"
+    android:background="@drawable/downloadd">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Makanan"
-        android:textSize="20dp"
+        android:textColor="@color/bottomnav"
+        android:textSize="25dp"
+        android:fontFamily="@font/alkarta"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="7dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerview2"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginTop="40dp"/>
+        android:layout_height="370dp"
+        android:layout_marginTop="45dp"/>
 
 
 
@@ -28,14 +31,16 @@
         android:layout_height="wrap_content"
         android:text="Minuman"
         android:layout_marginLeft="16dp"
-        android:textSize="20dp"
-        android:layout_marginTop="350dp"/>
+        android:textSize="25dp"
+        android:textColor="@color/bottomnav"
+        android:fontFamily="@font/alkarta"
+        android:layout_marginTop="410dp"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerview3"
             android:layout_width="match_parent"
-            android:layout_height="400dp"
-            android:layout_marginTop="400dp"/>
+            android:layout_height="380dp"
+            android:layout_marginTop="450dp"/>
 
 
 

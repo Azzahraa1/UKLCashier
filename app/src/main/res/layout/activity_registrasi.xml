@@ -4,15 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrasiActivity">
+    tools:context=".RegistrasiActivity"
+    android:background="@drawable/downloadd">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="DATA USER"
+        android:fontFamily="@font/mogra"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="10dp"
-        android:textSize="20dp"
+        android:textSize="30dp"
         android:textStyle="bold"/>
 
 
@@ -21,7 +23,7 @@
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="55dp"/>
 
 
 

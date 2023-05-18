@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:padding="14dp"
     android:layout_height="match_parent"
-    tools:context=".UserActivity">
+    tools:context=".UserActivity"
+    android:background="@drawable/downloadd">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -50,6 +51,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Simpan"
+        android:textColor="@color/white"
         android:layout_marginTop="230dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"/>

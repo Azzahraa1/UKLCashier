@@ -27,7 +27,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/txtName"
-                    android:textSize="20sp"
+                    android:textSize="19sp"
+                    android:fontFamily="@font/instrumen"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Nama"/>
 
@@ -35,7 +36,8 @@
                     android:id="@+id/txtEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
+                    android:textSize="19sp"
+                    android:fontFamily="@font/instrumen"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Email"/>
 
@@ -43,7 +45,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/txtPass"
-                    android:textSize="15sp"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/instrumen"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Password"/>
 
@@ -51,7 +54,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/txtPhone"
-                    android:textSize="15sp"
+                    android:fontFamily="@font/instrumen"
+                    android:textSize="13sp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="No Telp "/>
 

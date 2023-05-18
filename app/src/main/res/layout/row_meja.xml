@@ -28,6 +28,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/txtnomeja"
                     android:textSize="25sp"
+                    android:fontFamily="@font/neucha"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Menu"/>
 

@@ -27,6 +27,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:id="@+id/txtmenu"
+                    android:fontFamily="@font/neucha"
                     android:textSize="25sp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Menu"/>
@@ -36,6 +37,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/txtdesk"
                     android:textSize="15sp"
+                    android:fontFamily="@font/neucha"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Deskripsi"/>
 
@@ -44,6 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:fontFamily="@font/neucha"
                     android:textStyle="bold"
                     android:textAppearance="@style/TextAppearance.AppCompat.Title"
                     android:text="Harga"/>
